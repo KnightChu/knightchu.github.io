@@ -1,0 +1,195 @@
+---
+layout: post
+title:  "[半坡]2016年阅读书单"
+date:   2014-02-11 21:43:15
+categories: 半坡
+tags: reading reading-list
+permalink: /:year/:month/:title
+---
+
+# 2016年想要读的书：
+
+2014年和2015年全年的阅读量很低，实在看不下去了，这里列出今年想看的书，每看完一本来这里更新一下。
+新年的阅读计划，不仅包括阅读下面的书单。
+同时，为了保持以往的光荣传统并且更加无纸化，我决定将继续从纸质笔记转移到电子笔记。所以我会将笔记提纲的超链接放在下面的书单中，以此督促自己学习和复习。
+
+## 计算机阅读书单：
+### 基础
+- C 程序设计语言+习题集
+- 深入理解计算机系统
+- 计算机组成与设计：硬件/软件接口
+- 现代操作系统
+- TCP/IP 详解：卷I
+- 代码大全
+<li>算法导论</li>
+<li>编程之美</li>
+<li>编程珠玑</li>
+<li>剑指 Offer</li>
+<li>程序员的自我修养——链接、装载与库</li>
+</ol>
+</li>
+
+<li>
+Android & Java
+<ol>
+<li>Java 编程思想</li>
+<li>Java 核心技术：卷I</li>
+<li>Java 核心技术：卷II</li>
+<li>Effective Java</li>
+<li>Java 并发编程实战</li>
+<li>Android 编程权威指南</li>
+<li>Android 编程实战</li>
+<li>Android 应用开发攻略</li>
+<li>打造高质量 Android 应用</li>
+<li>深入理解 Android ：Wi-Fi、MFC 和 GPS 卷</li>
+</ol>
+</li>
+
+<li>
+UNIX
+<ol>
+<li>UNIX 编程环境</li>
+<li>UNIX 环境高级编程</li>
+<li>Unix/Linux 编程实践教程</li>
+<li>UNIX 网络编程：卷I 卷II</li>
+<li>UNIX 编程艺术</li>
+</ol>
+</li>
+
+<li>
+软件工程
+<ol>
+<li>重构</li>
+<li>重构与模式</li>
+<li>设计模式</li>
+<li>软件工程（未定）</li>
+<li>敏捷开发（未定）</li>
+</ol>
+</li>
+
+<li>
+C/C++
+<ol>
+<li>征服 C 指针</li>
+<li>深入理解 C 指针</li>
+<li>C 和指针</li>
+<li>C 专家编程</li>
+<li>C 语言接口与实现</li>
+<li>C++ 语言的设计与演化</li>
+<li>Effective C++ </li>
+<li>C++ 程序设计语言</li>
+</ol>
+</li>
+
+<li>
+其他语言学习
+<ol>
+<li>Python 学习手册</li>
+<li>Python 高级编程</li>
+<li> Lisp (未定) </li>
+<li> Scala (未定) </li>
+<li> Haskell（未定）</li>
+<li> JavaScript （未定）</li>
+</ol>
+</li>
+
+<li>
+Other
+<ol>
+<li>软件开发者路线图</li>
+<li>松本行弘的世界</li>
+<li>代码未来</li>
+<li><a href="tech/2015/03/47.html">编写可读代码的艺术</a></li>
+<li><a href="default/2015/02/45.html">黑客与画家</a></li>
+<li><a href="tech/2015/03/46.html">并发的艺术</a></li>
+</ol>
+</li>
+
+</ul>
+
+
+<h3>心理学书单：</h3>
+<ul>
+
+<li>
+认知心理学
+<ol>
+<li>认知心理学（华东师范大学出版社）</li>
+<li>认知心理学及其启示</li>
+<li>意识探秘：意识的神经生物学研究</li>
+</ol>
+</li>
+
+<li>
+社会心理学
+<ol>
+<li>社会心理学（阿伦森）</li>
+<li>社会性动物</li>
+<li>乌合之众：大众心理研究（重读）</li>
+</ol>
+</li>
+
+<li>
+Other
+<ol>
+<li>心理学与生活</li>
+<li>亲密关系</li>
+<li>弗洛伊德（未定）</li>
+<li>荣格（未定）</li>
+</ol>
+</li>
+
+</ul>
+
+<h3>其他书单：</h3>
+<ul>
+
+<li>
+古典
+<ol>
+<li>老子道德经注校释</li>
+<li>论语</li>
+<li>庄子</li>
+<li>墨子</li>
+<li>史记</li>
+</ol>
+</li>
+
+<li>
+软实力
+<ol>
+<li>中国历代政治得失</li>
+<li>金字塔原理</li>
+<li>失控</li>
+<li>系统化思维导论</li>
+</ol>
+</li>
+
+<li>
+文学
+<ol>
+<li>动物农场</li>
+<li>霍乱时期的爱情</li>
+<li>解忧杂货店</li>
+</ol>
+</li>
+
+<li>
+艺术
+</li>
+<ol>
+<li>摄影构图学</li>
+</ol>
+<li>
+设计和产品
+<ol>
+<li>在你身边，为你设计</li>
+<li>认知与设计：理解 UI 设计准则</li>
+<li>点石成金：访客之上的网页设计秘籍</li>
+<li>产品经理的第二本书</li>
+<li>启示录：打造用户喜爱的产品</li>
+<li>用户体验要素（重读）</li>
+</ol>
+</li>
+
+</ul>

@@ -1,0 +1,19 @@
+<button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
+<nav id="ml-menu" class="menu">
+    <button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
+    <div class="menu__wrap">
+        <ul data-menu="main" class="menu__level">
+            {% for category in site.categories %}
+            <li class="menu__item"><a class="menu__link" data-submenu="submenu-{{ category | first }}" href="#">{{ category | first }}  ({{ category | last | size }})</a></li>
+            {% endfor %}
+        </ul>
+
+        {% for category in site.categories %}
+        <ul data-menu="submenu-{{ category | first }}" class="menu__level">
+            {% for post in category.last %}
+            <li class="menu__item"><a class="menu__link" href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </div>
+</nav>

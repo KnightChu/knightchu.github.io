@@ -1,0 +1,20 @@
+# Site settings
+title: 许臾的半坡亭
+email: chuzhicheng.knight@gmail.com
+description: 为萌而生
+quote: 开心的活着比爽快的死去更加困难
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.knightchu.com" # the base hostname & protocol for your site
+paginate: 5
+paginate_path: "/page:num/"
+twitter_username: knight_chu
+github_username: KnightChu
+weibo_username: 许臾
+weibo_id: 378930329
+douban_username: 许臾
+douban_id: knight_errant
+
+# Build settings
+markdown: kramdown
+gems: [jekyll-paginate]
+permalink: /:year/:month/:day/:title
