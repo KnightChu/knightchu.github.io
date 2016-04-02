@@ -4,7 +4,7 @@ email: chuzhicheng.knight@gmail.com
 description: 为萌而生
 quote: 开心的活着比爽快的死去更加困难
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.knightchu.com" # the base hostname & protocol for your site
+url: "http://knightchu.github.io" # the base hostname & protocol for your site
 paginate: 5
 paginate_path: "/page:num/"
 twitter_username: knight_chu
