@@ -1,14 +1,16 @@
 ---
 layout: post
 title:  "[学习]新标准日本语第一课"
-date:   2016-04-02 17:00:00
+date:   2016-04-02 05:00:00
 categories: 日语
 tags: learning japanese
 permalink: /:year/:month/:title
 ---
 
 # 标准日本语第一课
+
 ## 视频教材
+
 [标日初级精讲BY萌萌哒葉子先生](http://www.bilibili.com/video/av3060477/index_1.html)
 
 ## 生词表
