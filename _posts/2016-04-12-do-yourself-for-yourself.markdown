@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[须臾]做自己喜欢的事情吧"
-date:   2016-04-12 00:00:00
+date:   2016-04-12 05:00:00
 categories: 须臾
 tags: moment myself
 permalink: /:year/:month/:title
