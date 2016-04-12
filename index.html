@@ -18,6 +18,7 @@ layout: default
     {% endfor %}
   </ul>
 
+  <div class="paginator">
   {% if paginator.total_pages > 1 %}
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">上一页</a>
@@ -38,7 +39,7 @@ layout: default
     {% endif %}
 
   {% endif %}
-
+  </div>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
