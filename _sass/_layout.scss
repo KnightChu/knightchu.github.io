@@ -176,6 +176,11 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        max-width: 700px;
+
+        > a {
+            display: block;
+        }
     }
 }
 
