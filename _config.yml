@@ -5,7 +5,7 @@ email: chuzhicheng.knight@gmail.com
 description: 你好，我是许臾，欢迎来到我的半坡亭，这里是我码字的地方，欢迎交流。
 quote: 逝者如斯夫，不舍昼夜。
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+url: "http://knightchu.github.io" # the base hostname & protocol for your site
 paginate: 5
 paginate_path: "/page:num/"
 twitter_username: knight_chu
