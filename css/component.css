@@ -1,27 +1,40 @@
 /* Icons (made with Icomoon.io) */
 
-.icon {
-	font-family: 'bpicons';
-	font-weight: normal;
+.icon:after {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'IcoMoon-Free' !important;
+	speak: none;
 	font-style: normal;
+	font-weight: normal;
 	font-variant: normal;
-	line-height: 1;
 	text-transform: none;
+	line-height: 1;
+	color: #00cece;
+	text-align: center;
+	/* Enable Ligatures ================ */
+	letter-spacing: 0;
+	-webkit-font-feature-settings: "liga";
+	-moz-font-feature-settings: "liga=1";
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga" 1;
+	-o-font-feature-settings: "liga";
+	font-feature-settings: "liga";
+
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
 .icon--arrow-left:before {
-	content: '\e004';
+	content: '\e9bd';
 }
 
 .icon--menu:before {
-	content: '\e004';
+	content: '\e9bd';
 }
 
 .icon--cross:before {
-	content: '\e000';
+	content: '\ea0f';
 }
 
 
@@ -29,9 +42,9 @@
 
 .menu {
 	position: fixed;
-	top: 120px;
+	top: 50%;
 	left: 0;
-	width: 300px;
+	width: 30%;
 	height: calc(100vh - 120px);
 	background: #1c1d22;
 }
@@ -71,18 +84,18 @@
 	font-weight: 600;
 	position: relative;
 	display: block;
-	padding: 1em 2.5em 1em 1.5em;
+	padding: 1em 15% 1em 15%;
 	color: #bdbdbd;
 	-webkit-transition: color 0.1s;
 	transition: color 0.1s;
 }
 
 .menu__link[data-submenu]::after {
-	content: '\e000';
-	font-family: 'bpicons';
+	content: '\ea3c';
+	font-family: 'IcoMoon-Free';
 	position: absolute;
 	right: 0;
-	padding: 0.25em 1.25em;
+	padding: 0.25em 15%;
 	color: #2a2b30;
 }
 
@@ -92,7 +105,7 @@
 }
 
 .menu__link--current::before {
-	content: '\00B7';
+	content: '\ea40';
 	font-size: 1.5em;
 	line-height: 0;
 	position: absolute;
@@ -215,7 +228,7 @@
 	font-size: 1em;
 	line-height: 1;
 	position: relative;
-	padding: 2.5em 3.75em 1.5em 1em;
+	padding: 2.5em 3.75em 1.5em 10%;
 }
 
 .menu__breadcrumbs a {
@@ -237,8 +250,8 @@
 }
 
 .menu__breadcrumbs a:not(:last-child)::after {
-	content: '\e000';
-	font-family: 'bpicons';
+	content: '\ea0b';
+	font-family: 'IcoMoon-Free';
 	display: inline-block;
 	padding: 0 0.5em;
 	color: #33353e;
@@ -308,7 +321,7 @@
 	color: #45464e;
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 50em) {
 	.action--open,
 	.action--close {
 		display: block;

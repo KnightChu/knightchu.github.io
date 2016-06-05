@@ -1,10 +1,11 @@
 # Site settings
 title: 许臾的半坡亭
+name: 许臾
 email: chuzhicheng.knight@gmail.com
-description: 为萌而生
-quote: 开心的活着比爽快的死去更加困难
+description: 你好，我是许臾，欢迎来到我的半坡亭，这里是我码字的地方，欢迎交流。
+quote: 逝者如斯夫，不舍昼夜。
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://knightchu.github.io" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 paginate: 5
 paginate_path: "/page:num/"
 twitter_username: knight_chu

@@ -1,11 +1,19 @@
 /* General Blueprint Style */
 
+//@font-face {
+//    font-family: 'bpicons';
+//    font-weight: normal;
+//    font-style: normal;
+//    src: url('../fonts/bpicons/bpicons.ttf') format('truetype');
+//    //src: url('../fonts/bpicons/bpicons.eot');
+//    //src: url('../fonts/bpicons/bpicons.eot?#iefix') format('embedded-opentype'), url('../fonts/bpicons/bpicons.woff') format('woff'), url('../fonts/bpicons/bpicons.ttf') format('truetype'), url('../fonts/bpicons/bpicons.svg#bpicons') format('svg');
+//}
+
 @font-face {
-    font-family: 'bpicons';
+    font-family: 'IcoMoon-Free';
+    src: url('../fonts/IcoMoon-Free.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/bpicons/bpicons.eot');
-    src: url('../fonts/bpicons/bpicons.eot?#iefix') format('embedded-opentype'), url('../fonts/bpicons/bpicons.woff') format('woff'), url('../fonts/bpicons/bpicons.ttf') format('truetype'), url('../fonts/bpicons/bpicons.svg#bpicons') format('svg');
 }
 
 /* Resets */
@@ -160,16 +168,41 @@ a:hover {
 }
 
 .my-icon:after {
-    font-family: 'bpicons';
-    font-weight: normal;
-    font-style: normal;
-    font-variant: normal;
-    text-align: center;
-    text-transform: none;
-    color: #00cece;
-    -webkit-font-smoothing: antialiased;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'IcoMoon-Free' !important;
     speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #00cece;
+    text-align: center;
+    /* Enable Ligatures ================ */
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
+//.my-icon:after {
+//    font-family: 'bpicons';
+//    font-weight: normal;
+//    font-style: normal;
+//    font-variant: normal;
+//    text-align: center;
+//    text-transform: none;
+//    color: #00cece;
+//    -webkit-font-smoothing: antialiased;
+//    speak: none;
+//}
 
 .my-nav .my-icon:after {
     line-height: 2.4;
@@ -186,51 +219,87 @@ a:hover {
 }
 
 .my-icon--next:after {
-    content: '\e000';
+    content: '\ea0f';
 }
 
-.my-icon--archive:after {
-    content: '\e002';
+.my-icon--mail:after {
+    content: '\e945';
+}
+
+.my-icon--twitter:after {
+    content: '\ea96';
+}
+
+.my-icon--weibo:after {
+    content: '\ea9a';
+}
+
+.my-icon--github:after {
+    content: '\eab0';
 }
 
 .my-icon--about:after {
-    content: '\e003';
+    content: '\ea09';
 }
 
 .my-icon--prev:after {
-    content: '\e004';
+    content: '\ea0f';
 }
 
 .my-logo {
     position: fixed;
     top: 0;
     left: 0;
-    width: 300px;
-    height: 120px;
-    padding: 1em 0 0 0;
+    width: 30%;
+    height: 50%;
+    padding: 3em 2em 3em 2em;
     text-align: center;
     color: #00cece;
     background: #1c1d22;
+}
+
+.my-logo > hr {
+    width: 60%;
+    margin: 1em auto 1em auto;
+    opacity: 0.75;
+}
+
+.my-avatar {
+    border-radius: 120px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .my-icon {
     font-size: 1em;
 }
 
-.my-heading {
-    font-size: 1em;
-    letter-spacing: 2px;
+.my-name {
+    font-size: 1.75em;
+    letter-spacing: 4px;
     text-transform: uppercase;
+    line-height: 100%;
+    color: #ffffff;
 }
 
-.my-heading > a {
-    color: #00cece;
+.my-quote {
+    color: #888888;
+    letter-spacing: 2px;
+    font-size: 1.20em;
+}
+
+.my-description {
+    color: #EEEEEE;
+    letter-spacing: 2px;
+    line-height: 200%;
+    font-size: 1em;
 }
 
 .content {
     position: relative;
-    min-height: 300px;
-    margin: 0 0 0 300px;
+    min-height: 10%;
+    margin: 0 0 0 30%;
 }
 
 .content--loading {
@@ -238,8 +307,9 @@ a:hover {
 }
 
 .post {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    line-height: 200%;
 }
 .post-content {
     color: #DCDCDC;
@@ -285,9 +355,9 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $grey-color;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $grey-color;
 }
 
 code {
@@ -324,7 +394,37 @@ body #cdawrap a:hover.carbon-poweredby {
     color: #fff;
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-height: 738px) {
+    .my-description {
+        visibility: hidden;
+    }
+
+    .my-logo {
+        height: 50%;
+    }
+
+}
+
+@media screen and (max-height: 640px) {
+    .my-description {
+        visibility: hidden;
+    }
+
+    .my-quote {
+        visibility: hidden;
+    }
+
+    .my-logo {
+        height: 40%;
+    }
+
+    .menu {
+        top: 40%;
+    }
+
+}
+
+@media screen and (max-width: 50em) {
     .my-header {
         padding-top: 3em;
     }
